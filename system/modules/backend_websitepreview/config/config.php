@@ -2,7 +2,7 @@
 
 /**
  * Contao Open Source CMS
- * Copyright (C) 2005-2010 Leo Feyer
+ * Copyright (C) 2005-2011 Leo Feyer
  *
  * Formerly known as TYPOlight Open Source CMS.
  *
@@ -21,7 +21,7 @@
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  DyaGa, 2010
+ * @copyright  DyaGa, 2010-2011
  * @author     DyaGa, http://d.sumy.ua/
  * @package    WebsitePreview
  * @license    LGPL
@@ -30,7 +30,8 @@
 
 if (TL_MODE == 'BE')
 {
-	$GLOBALS['TL_JAVASCRIPT']['backend_websitepreview'] = 'system/modules/backend_websitepreview/html/backend_websitepreview.js';
+	$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/backend_websitepreview/html/backend_websitepreview.js';
+	$GLOBALS['TL_MOOTOOLS'][] = '<script>var ContaoData = { websiteTitle: "'. $GLOBALS['TL_CONFIG']['websiteTitle'] .'"};</script>';
 }
 
 ?>

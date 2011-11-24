@@ -2,7 +2,7 @@
 
 /**
  * Contao Open Source CMS
- * Copyright (C) 2005-2010 Leo Feyer
+ * Copyright (C) 2005-2011 Leo Feyer
  *
  * Formerly known as TYPOlight Open Source CMS.
  *
@@ -21,11 +21,13 @@
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  DyaGa, 2010
+ * @copyright  DyaGa, 2010-2011
  * @author     DyaGa, http://d.sumy.ua/
  * @package    WebsitePreview
  * @license    LGPL
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['MOD']['backend_websitepreview'] = array('Backend Website Preview', 'Adds a preview link for website in backend header. The link are opens a website in a new window without starndart Contao preview module.');
+$GLOBALS['TL_LANG']['MOD']['backend_websitepreview'] = array('Backend Website Preview', 'Adds a preview link for website in backend header. The link are opens a website in a new window without starndart Contao site preview module.');
+
+?>

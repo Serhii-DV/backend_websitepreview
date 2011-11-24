@@ -5,7 +5,7 @@
  * Contao extension: backend_websitepreview 0.0.1 alpha1 
  * Russian translation file 
  * 
- * Copyright : &copy; 2010 DyaGa 
+ * Copyright : &copy; 2010-2011 DyaGa
  * License   : LGPL 
  * Author    : Sergey Dyagovchenko (DyaGa), http://d.sumy.ua/ 
  * Translator: Sergey Dyagovchenko (DyaGa), http://d.sumy.ua/ 
@@ -15,7 +15,6 @@
  * permanent text corrections which are update-safe. 
  */
  
-$GLOBALS['TL_LANG']['MOD']['backend_websitepreview']['0'] = "Просмотр веб-сайта";
-$GLOBALS['TL_LANG']['MOD']['backend_websitepreview']['1'] = "Добавляет ссылку предосмотра сайта в заголовок административной части. Ссылка позволяет открывать вебсайт в новом окне без использования стандартного модуля предосмотра сайта.";
- 
+$GLOBALS['TL_LANG']['MOD']['backend_websitepreview'] = array('Просмотр сайта в новом окне', 'Добавляет ссылку предосмотра сайта в заголовок административной части. Ссылка позволяет открывать сайт в новом окне без использования стандартного модуля предосмотра.');
+
 ?>
