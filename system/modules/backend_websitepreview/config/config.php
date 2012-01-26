@@ -30,8 +30,12 @@
 
 if (TL_MODE == 'BE')
 {
+	$useFavicon = file_exists(TL_ROOT .  '/favicon.ico');
+
 	$GLOBALS['TL_JAVASCRIPT'][] = '/system/modules/backend_websitepreview/html/backend_websitepreview.js';
-	$GLOBALS['TL_MOOTOOLS'][] = '<script>var WSPData = {websiteTitle: "'. $GLOBALS['TL_CONFIG']['websiteTitle'] .'"};</script>';
+	$GLOBALS['TL_MOOTOOLS'][] = '<script>var WSPData = {websiteTitle: "'. $GLOBALS['TL_CONFIG']['websiteTitle'] .'", useFavicon: '. (int)$useFavicon .'};</script>';
+	
+	unset($useFavicon);
 }
 
 ?>

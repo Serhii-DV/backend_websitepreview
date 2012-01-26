@@ -6,14 +6,16 @@
  **/
 (function($, window, document){
 	window.addEvent('domready', function() {
-		var	doc = $(document), title = window.WSPData.websiteTitle,
+		var	doc = $(document),
+		title = window.WSPData.websiteTitle,
+		icon = window.WSPData.useFavicon ? 'favicon.ico' : 'system/themes/default/images/root.gif',
 		link = new Element('a', {
 			'class': 'header_preview',
 			href: doc.getElements('base').get('href'),
 			target: '_blank',
 			title: title,
 			html: title,
-			styles: { 'background-image': 'url(system/themes/default/images/root.gif)' }
+			styles: { 'background-image': 'url(' + icon + ')' }
 		}),
 		block = new Element('div', {
 				id: 'mod_backend_websitepreview',
