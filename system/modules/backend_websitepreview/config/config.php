@@ -30,7 +30,7 @@
 
 if (TL_MODE == 'BE')
 {
-	$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/backend_websitepreview/html/backend_websitepreview.js';
+	$GLOBALS['TL_JAVASCRIPT'][] = '/system/modules/backend_websitepreview/html/backend_websitepreview.js';
 	$GLOBALS['TL_MOOTOOLS'][] = '<script>var WSPData = {websiteTitle: "'. $GLOBALS['TL_CONFIG']['websiteTitle'] .'"};</script>';
 }
 
