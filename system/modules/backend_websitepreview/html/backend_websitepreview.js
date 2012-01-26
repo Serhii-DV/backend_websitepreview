@@ -6,7 +6,7 @@
  **/
 (function($, window, document){
 	window.addEvent('domready', function() {
-		var	doc = $(document), title = ContaoData.websiteTitle,
+		var	doc = $(document), title = window.WSPData.websiteTitle,
 		link = new Element('a', {
 			'class': 'header_preview',
 			href: doc.getElements('base').get('href'),
