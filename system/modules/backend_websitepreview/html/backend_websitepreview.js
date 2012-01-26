@@ -1,4 +1,9 @@
-
+/**
+ * @copyright  Sergey Dyagovchenko (DyaGa), 2010-2012
+ * @author     Sergey Dyagovchenko (DyaGa), http://d.sumy.ua/
+ * @package    WebsitePreview
+ * @license    LGPL
+ **/
 (function($, window, document){
 	window.addEvent('domready', function() {
 		var	doc = $(document), title = ContaoData.websiteTitle,
