@@ -15,8 +15,8 @@ if (TL_MODE == 'BE')
 {
 	$useFavicon = file_exists(TL_ROOT .  '/favicon.ico');
 
-	$GLOBALS['TL_JAVASCRIPT'][] = '/system/modules/backend_websitepreview/html/backend_websitepreview.js';
-	$GLOBALS['TL_MOOTOOLS'][] = '<script>var WSPData = {websiteTitle: "'. $GLOBALS['TL_CONFIG']['websiteTitle'] .'", useFavicon: '. (int)$useFavicon .'};</script>';
+	$GLOBALS['TL_JAVASCRIPT'][] = '/system/modules/backend_websitepreview/assets/backend_websitepreview.min.js';
+	$GLOBALS['TL_MOOTOOLS'][] = '<script>Contao.WSPData = {websiteTitle: "'. $GLOBALS['TL_CONFIG']['websiteTitle'] .'", useFavicon: '. (int)$useFavicon .'};</script>';
 
 	unset($useFavicon);
 }
