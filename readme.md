@@ -17,6 +17,11 @@ ru - русский
 Changelog
 ================================
 
+2.1.0
+ - add: ukrainian language file
+ - upd: update htaccess file in assets folder
+ - fix: minor fixes
+
 2.0.0
  - add: make compatibility with Contao 3.x
  - add: minimized js version and load it
