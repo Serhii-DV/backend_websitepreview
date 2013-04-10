@@ -1,5 +1,5 @@
 /**
- * @copyright  Sergey Dyagovchenko (DyaGa), 2010-2012
+ * @copyright  Sergey Dyagovchenko (DyaGa), 2010-2013
  * @author     Sergey Dyagovchenko (DyaGa), http://d.sumy.ua/
  * @package    WebsitePreview
  * @license    LGPL

@@ -3,12 +3,12 @@
 /**
  * Contao Open Source CMS
  *
- * Copyright (C) 2005-2012 Leo Feyer
+ * Copyright (C) 2005-2013 Leo Feyer
  *
  * @package   backend_websitepreview
  * @author    Sergey Dyagovchenko (DyaGa), http://d.sumy.ua
  * @license   LGPL
- * @copyright Sergey Dyagovchenko 2010-2012
+ * @copyright Sergey Dyagovchenko 2010-2013
  */
 
 if (TL_MODE == 'BE')
