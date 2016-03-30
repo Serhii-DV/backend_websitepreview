@@ -1,10 +1,10 @@
 /**
- * @copyright  Sergey Dyagovchenko (DyaGa), 2010-2013
- * @author     Sergey Dyagovchenko (DyaGa), http://d.sumy.ua/
- * @package    WebsitePreview
- * @license    LGPL
- **/
-(function($, window, document){
+ * Backend WebsitePreview module
+ * Author: Sergey Dyagovchenko, 2010-2016 <https://github.com/dyaga>
+ */
+;(function($, window, document){
+	'use strict';
+
 	window.addEvent('domready', function() {
 		var headerElem = $('header'),
 			WSPData, title, icon, linkElem, blockElem;
@@ -22,14 +22,15 @@
 			target: '_blank',
 			title: title,
 			html: title,
-			styles: { 'background-image': 'url(' + icon + ')' }
+			styles: { 'background-image': 'url(' + icon + ')', 'margin-left': 0 }
 		});
 
-		blockElem = new Element('div', {
+		blockElem = new Element('span', {
 			id: 'mod_backend_websitepreview',
+			'class': 'header_backend_websitepreview',
 			styles: { 'float': 'left' }
 		});
 
-		blockElem.grab(linkElem).inject(headerElem.getElement('h1'), 'after');
+		blockElem.grab(linkElem).inject(headerElem.getElement('.header_user_container'), 'before');
 	});
 })($, window, document);

@@ -3,15 +3,13 @@
 /**
  * Contao Open Source CMS
  *
- * Copyright (C) 2005-2013 Leo Feyer
+ * Copyright (c) 2005-2016 Leo Feyer
+ * Copyright (c) 2010-2016 Sergey Dyagovchenko <https://github.com/dyaga>
  *
- * @package   backend_websitepreview
- * @author    Sergey Dyagovchenko (DyaGa), http://d.sumy.ua
- * @license   LGPL
- * @copyright Sergey Dyagovchenko 2010-2013
+ * @license LGPL-3.0+
  */
 
-if (TL_MODE == 'BE')
+if (TL_MODE === 'BE')
 {
 	$useFavicon = file_exists(TL_ROOT .  '/favicon.ico');
 
