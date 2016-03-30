@@ -6,16 +6,19 @@ backend_websitepreview
 en - english
 ------------
 
-Adds a backend website preview link to the header. The link is just opens a website in a new window without using standart Contao preview module.
+Contao module that adds a backend website preview link to the backend header. The link is just opens a website in a new window without using standard Contao preview module.
 
 ru - русский
 ------------
 
-Добавляет в заголовок панели управления ссылку для просмотра сайта в новом окне. В отличии от стандартного модуля предпросмотра, сайт открывается просто в новом окне.
+Модуль Contao, который добавляет в заголовок панели управления ссылку для просмотра сайта в новом окне. В отличии от стандартного модуля предпросмотра, сайт открывается просто в новом окне бер режима предпросмотр.
 
 
 Changelog
 ================================
+
+2.2.0 (30.03.2016)
+ - fix: fix block position in backend headline block (Contao 3.x versions)
 
 2.1.0
  - add: ukrainian language file
